@@ -1,0 +1,52 @@
+<h3 class="titleForm">Crear nuevo producto</h3>
+<form class="formRealProds" id="idForm">
+
+  <label class="labelForm" for="title">Title</label>
+  <input class="inputForm" type="text" required name="title" />
+
+  <label class="labelForm" for="description">Descripcion</label>
+  <input class="inputForm" type="text" required name="description" />
+
+  <label class="labelForm" for="category">Categoria</label>
+  <input class="inputForm" type="text" name="category" required />
+
+  <label class="labelForm" for="price">Precio</label>
+  <input class="inputForm" type="number" name="price" required />
+
+  <label class="labelForm" for="stock">Stock</label>
+  <input class="inputForm" type="number" name="stock" required />
+
+  <label class="labelForm" for="code">Code</label>
+  <input class="inputForm" type="text" required name="code" />
+
+  <button type="submit" class="btnForm">Enviar</button>
+</form>
+
+<div class="divTable">
+  <table id="prodTable" class="prodTable">
+    <thead class="tableHead">
+      <tr>
+        <th>Id</th>
+        <th>Titulo</th>
+        <th>Descripcion</th>
+        <th>Precio</th>
+        <th>Thumbnail</th>
+        <th>Code</th>
+        <th>Stock</th>
+      </tr>
+    </thead>
+    <tbody class="tableBody">
+      {{#each products}}
+        <tr>
+          <td>{{this.id}}</td>
+          <td>{{this.title}}</td>
+          <td>{{this.description}}</td>
+          <td>{{this.price}}</td>
+          <td>{{this.thumbnail}}</td>
+          <td>{{this.code}}</td>
+          <td>{{this.stock}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>

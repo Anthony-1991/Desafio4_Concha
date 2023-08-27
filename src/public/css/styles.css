@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.titleForm{
+    text-align: center;
+}
+.formRealProds {
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #7a7a7abd;
+    background-color: #f0f0f0;
+    margin-bottom: 50px;
+}
+.inputForm {
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #7a7a7abd;
+    border-radius: 5px;
+}
+.labelForm{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.labelForm, .inputForm {
+    display: block;
+}
+
+.btnForm {
+    background-color: #6a7fb8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navBar {
+    border-bottom: 1px #6a7fb8 solid;
+    display: flex;
+    gap: 10px;
+}
+.footerBar {
+    border-top: 1px #6a7fb8 solid;
+    display: flex;
+    margin-top: 90px;
+    gap: 10px;
+}
+.navBar a, .footerBar a {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.prodTable {
+    width: 100%;
+}
+.tableBody {
+    text-align: center;
+}
+td{
+    border-bottom: solid 1px #000;
+    border-right: solid 1px #000;
+    border-left: solid 1px #000;
+    border-top: solid 1px #000;
+    border-radius: 2px;
+}

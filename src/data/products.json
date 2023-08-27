@@ -1,0 +1,47 @@
+[
+    {
+      "title": "Escritorio de madera",
+      "description": "Madera",
+      "price": 3500,
+      "thumbnail": "Muebles",
+      "code": "EM001",
+      "stock": 30,
+      "id": 1
+    },
+    {
+      "title": "Pava",
+      "description": "Electrica",
+      "price": 1000,
+      "thumbnail": "Electrónica",
+      "code": "MP001",
+      "stock": 100,
+      "id": 2
+    },
+    {
+      "title": "helado",
+      "description": "frio",
+      "category": "postres",
+      "price": "1000",
+      "stock": "10",
+      "code": "HE01",
+      "id": 3
+    },
+    {
+      "title": "9 de oro",
+      "description": "pepas",
+      "category": "galletitas",
+      "price": "500",
+      "stock": "100",
+      "code": "PE01",
+      "id": 4
+    },
+    {
+      "title": "papas",
+      "description": "papas fritas",
+      "category": "snack",
+      "price": "699",
+      "stock": "100",
+      "code": "PF01",
+      "id": 5
+    }
+  ]

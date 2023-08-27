@@ -1,0 +1,28 @@
+<div class="divTable">
+  <table id="prodTable" class="prodTable">
+    <thead class="tableHead">
+      <tr>
+        <th>Id</th>
+        <th>Titulo</th>
+        <th>Descripcion</th>
+        <th>Precio</th>
+        <th>Thumbnail</th>
+        <th>Code</th>
+        <th>Stock</th>
+      </tr>
+    </thead>
+    <tbody class="tableBody">
+      {{#each products}}
+        <tr>
+          <td>{{this.id}}</td>
+          <td>{{this.title}}</td>
+          <td>{{this.description}}</td>
+          <td>{{this.price}}</td>
+          <td>{{this.thumbnail}}</td>
+          <td>{{this.code}}</td>
+          <td>{{this.stock}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>
